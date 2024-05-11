@@ -1,6 +1,6 @@
 def countVowels(word): #Spacing
     numVowels = 0 #change numvowels = 0
-    for letter in word: ###intention, change string to word
+    for letter in word: 
         if letter in "AUIOEaeiou": #Needs comma,
             numVowels+=1 
     return numVowels
